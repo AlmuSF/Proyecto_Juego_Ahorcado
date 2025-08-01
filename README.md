@@ -30,12 +30,12 @@ El código ha sido dividido en **4 bloques principales** para una mayor claridad
 
 ### 2. 🔁 Juego nuevo
 
-- Permite a las jugadoras decidir si desean jugar una nueva partida una vez finalizada.
+- Permite a los/as jugadores/as decidir si desean jugar una nueva partida una vez finalizada.
 
 ### 3. 🕹️ Desarrollo del juego
 
-- Jugadora 1 introduce la palabra secreta.
-- Jugadora 2 intenta adivinarla letra a letra.
+- Jugador/a 1 introduce la palabra secreta.
+- Jugador/a 2 intenta adivinarla letra a letra.
 - Se actualiza el dibujo del ahorcado según los errores.
 - Se muestra el progreso de la palabra con los aciertos.
 - Finaliza con victoria o derrota, según los intentos restantes.
@@ -49,8 +49,8 @@ El código ha sido dividido en **4 bloques principales** para una mayor claridad
 
 ## 📋 Reglas del juego
 
-- Jugadora 1 introduce una palabra secreta (no se muestra en pantalla).
-- Jugadora 2 tiene un número limitado de intentos para adivinarla.
+- Jugador/a 1 introduce una palabra secreta (no se muestra en pantalla).
+- Jugador/a 2 tiene un número limitado de intentos para adivinarla.
 - Cada fallo añade una parte del dibujo del ahorcado.
 - El juego termina cuando:
   - ✅ Se acierta toda la palabra.
@@ -62,7 +62,6 @@ El código ha sido dividido en **4 bloques principales** para una mayor claridad
 
 - Separación del código en **funciones** para mayor legibilidad.
 - Opción de jugar múltiples partidas sin reiniciar el programa.
-- Validación de entrada de datos para evitar errores.
 - Limpieza visual de la consola entre turnos.
 
 ---
