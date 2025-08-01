@@ -1,32 +1,77 @@
-# proyecto-da-promo-50-modulo-1-team-III
-Juego del ahorcado
+# 🎮 JUEGO DEL AHORCADO
 
-Se ha solicitado el desarrollo de un juego clásico: el ahorcado. 
-Se requiere tener en cuenta que habrá 2 jugadoras, una elige la palabra secreta y la otra jugadora, intentará adivinarla. 
+## ✨ Descripción del proyecto
 
-Inicialmente, hemos analizado la estructura y lógica del juego, teniendo en cuenta las solicitudes del cliente. 
-En primer lugar hemos desarrollado un código funcional y práctico. Posteriormente lo hemos mejorado incluyendo detalles y mejora que no habíamos desarrollado en la primera fase. 
-A continuación, indicamos las fases del juego y de nuestro trabajo:
-- Diseño de la bienvenida y reglas del juego. 
-- Diseño de la estructura del código que permitirá ejecutar el juego. 
-- Diseño del cierre del juego, permitiendo volver a jugar si así lo desean las jugadoras. 
-- Realizar pruebas intermedias para detectar errores y comprobar que el código funciona. 
-- Estudiar propuestas de mejora del código, por ejemplo, introduciendo funciones. 
+Este es un **juego clásico del Ahorcado** desarrollado en Python. El objetivo es que **dos jugadores** participen:  
+🔹 Una introduce una palabra secreta.  
+🔹 La otra intentará adivinarla letra por letra antes de que se complete el dibujo del ahorcado.
 
-Para el desarrollo del código, lo hemos estructurado en 4 bloques, que detallamos a continuación.
-1. Bienvenida. 
-Para comenzar, se da la bienvenida a las jugadoras, se muestran las reglas del juego y se da la opción de jugar o salir. 
+---
 
-2. Juego nuevo. 
-Se trata de una función que permite volver a jugar tras finalizar una partida.
+## 🧩 Fases del desarrollo
 
-3. Desarrollo del juego. 
-Es la estructura principal del juego. Se comienza por la solicitud a la jugadora 1 de la palabra secreta. 
-A continuación, se solicita a la jugadora 2 que trate de adivinar la palabra secreta introduciendo letras. 
-Según la jugadora 2 acierte o no, se va dibujando el muñeco ahorcado o se van mostrando los aciertos en el orden correspondiente. 
-Si acierta la palabra, se mostrará completa. Si falla, se mostrará el muñeño ahorcado completo. 
-Finalmente, podrá decidir si quieren jugar otra partida o si prefieren salir. 
+1. ✅ Análisis de la estructura y lógica del juego.  
+2. ✅ Desarrollo de un primer código funcional.  
+3. ✅ Mejora del código incluyendo detalles y funciones adicionales.  
+4. ✅ Pruebas intermedias para detectar errores.  
+5. ✅ Optimización y limpieza del código final.
 
-4. Juego completo. 
-Se trata de una función que permite ejecutar el juego completo, incluyendo la bienvenida, el desarrollo completo y la posibilidad de continuar jugando.
+---
+
+## 🛠️ Estructura del código
+
+El código ha sido dividido en **4 bloques principales** para una mayor claridad:
+
+### 1. 👋 Bienvenida
+
+- Mensaje inicial de bienvenida.
+- Explicación de las reglas del juego.
+- Opción de comenzar a jugar o salir del programa.
+
+### 2. 🔁 Juego nuevo
+
+- Permite a las jugadoras decidir si desean jugar una nueva partida una vez finalizada.
+
+### 3. 🕹️ Desarrollo del juego
+
+- Jugadora 1 introduce la palabra secreta.
+- Jugadora 2 intenta adivinarla letra a letra.
+- Se actualiza el dibujo del ahorcado según los errores.
+- Se muestra el progreso de la palabra con los aciertos.
+- Finaliza con victoria o derrota, según los intentos restantes.
+
+### 4. 🧩 Juego completo
+
+- Función que engloba todo el juego:  
+  bienvenida + desarrollo + opción de repetir.
+
+---
+
+## 📋 Reglas del juego
+
+- Jugadora 1 introduce una palabra secreta (no se muestra en pantalla).
+- Jugadora 2 tiene un número limitado de intentos para adivinarla.
+- Cada fallo añade una parte del dibujo del ahorcado.
+- El juego termina cuando:
+  - ✅ Se acierta toda la palabra.
+  - ❌ Se completa el dibujo del ahorcado.
+
+---
+
+## 💡 Mejoras implementadas
+
+- Separación del código en **funciones** para mayor legibilidad.
+- Opción de jugar múltiples partidas sin reiniciar el programa.
+- Validación de entrada de datos para evitar errores.
+- Limpieza visual de la consola entre turnos.
+
+---
+
+## 🚀 ¿Cómo jugar?
+
+1. Ejecuta el archivo `.py` desde tu terminal o editor de código.
+2. Sigue las instrucciones en pantalla.
+3. ¡A disfrutar!
+
+---
 
