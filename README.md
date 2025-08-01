@@ -3,8 +3,8 @@
 ## ✨ Descripción del proyecto
 
 Este es un **juego clásico del Ahorcado** desarrollado en Python. El objetivo es que **dos jugadores** participen:  
-🔹 Una introduce una palabra secreta.  
-🔹 La otra intentará adivinarla letra por letra antes de que se complete el dibujo del ahorcado.
+🔹 Un/ jugador/a introduce una palabra secreta.  
+🔹 El/la otro/a intentará adivinarla letra por letra antes de que se complete el dibujo del ahorcado.
 
 ---
 
